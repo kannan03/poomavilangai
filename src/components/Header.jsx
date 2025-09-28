@@ -8,7 +8,7 @@ export default function Header() {
       <img src={devar3} alt="Village Logo" className="logo" />
       <nav className="nav">
         <Link to="/">Home</Link>
-        <Link to="/contact-us">Contact Us</Link>
+        {/* <Link to="/contact-us">Contact Us</Link> */}
         <Link to="/dashboard">Dashboard</Link>
       </nav>
       <Link to="/login" className="login-button">Login</Link>
